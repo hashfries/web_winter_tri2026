@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Olivia CSS Demo</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Bitcount' rel='stylesheet'>
+        <style>
+            #pinktext {
+                color:rgb(253, 133, 153); 
+            }
+            
+            .test-class {
+                color:darkcyan;
+                text-align: center;
+            }
+            
+            h2 {
+                background-color: rgb(163, 206, 255);
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+           <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul> 
+        </div>
+
+        <h1>Today, we'll learn about adding style with CSS</h1>
+        <h2>THis is how we add style with INLINE CSS</h2>
+        <p style="color:rgb(175, 225, 255);">🔷I want this text to be blue🔷</p>
+        <p style="color:indianred">🍎But I want this text to be red🍎</p>
+        <p style="color:rgb(164, 140, 212); text-align: center; font-size:25px;">🟣I want this text to be purple, centered, and big🟣</p>
+
+        <h2>This is how we use internal styling</h2>
+        <p id="pinktext">I want this text to be pink, large, and right aligned</p>
+        <p class="test-class">This is part of a class</p>
+        <h3 class="test-class">So is this</h3>
+        <h4 class="test-class">And so is this</h4>
+
+        <h2>This is how we use EXTERNAL styling</h2>
+
+        <h2>This is how we use divs and spans</h2>
+        <p>This is not part of my div</p>
+        <div class="div-test">
+            <p>This paragraph is part of my div</p>
+            <p>So is this one</p>\
+            <img src="images/random_bird.jpg">
+            <p>This is how we use spans</p>
+            <p>This <span class="span1">word</span> and this <span class="span2">group of words</span> will be styled differently.</p>
+        </div>
+
+        <h2>This is how we change the font.</h2>
+        <p style="font-family:'Courier New', Courier, monospace;">Hi</p>
+        <p style="font-family:fantasy;">Hello</p>
+        <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Hey</p>
+        <p style="font-family: 'Bitcount';">This is a google font</p>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(230, 241, 255);
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: rgb(255, 255, 249);
+    border: 5px dotted black;
+
+}
+.nav {
+    list-style: none;
+    text-align: center;
+}
+
+.nav li {
+    display:inline;
+    margin-right: 20px;
+}
+
+.div-test {
+    background-color: #6d6dff;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+.span1 {
+    font-size: 50px;
+}
+
+.span2 {
+    font-size: 10px;
+}
