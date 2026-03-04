@@ -1,0 +1,26 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: rgb(233, 252, 255);
+    border: 2px dashed black;
+    text-align: center;
+}
+
+.nav {
+    list-style: none;
+    text-align: center;
+}
+
+.nav li {
+    display:inline;
+    margin-right: 20px;
+}
+
+.artists {
+    background-color: aliceblue;
+}
+
+.podcasts {
+    background-color:rgb(255, 223, 227);
+}
